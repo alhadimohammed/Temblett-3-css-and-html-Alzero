@@ -654,9 +654,66 @@ header .contener ul > li:last-child:hover .ather-links {
 
 }
 /* end team members */
+/* start services */
+.services {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--section-background);
+}
+.services .contener {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+.services .contener .box {
+    background-color: white;
+    color: var(--main-color);
+}
+.services .contener .box .icon {
+    text-align: center;
+    margin: 20px;
+}
+.services .contener .box .icon i {
 
-
-
+}
+.services .contener .box .icon h2 {
+    font-size: 25px;
+}
+.services .contener .number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f9f9f9;
+    overflow: hidden;
+    position: relative;
+}
+.services .contener .number h3 {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    width: 25%;
+    margin: 0;
+    transform: skewx(-20deg);
+    transform-origin: top left;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+}
+.services .contener .number::before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    width: 14%;
+    height: 100%;
+    background-color: #d5d5d5;
+    transform: skewx(-20deg);
+    transform-origin: top left;
+}
+.services .contener .number div a {
+    color: var(--main-color);
+    padding: 10px;
+}
+/* end services */
 
 
 
